@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="god">
+        <div id="main" > 
+            <div id="headline" >Wel-Come To The GAME</div>
+            <div id="subMain">
+                <div class="t_c" id="t_c">
+                    <div class="time" id="time">Time : <span id="real_time">5</span></div>
+                    <div class="time" id="click">Click : <span id="real_click">0</span><span></span></div>
+                    
+                </div>
+                
+                <div class="game" id="game" onclick="clicked();">
+                    <div id="start">Click to start</div>
+                    
+                </div>
+            </div>
+        </div> 
+    </div>
+        
+    <div id="game_over">
+        <div id="align">
+            <div id="top">Result</div>
+            <div id="result">Total Click : <span id="noOfClick"></span></div><br>
+            <div id="average">Click per Second : <span id="average"></span></div>
+            <button id="ok" onclick="ok()">OK</button>
+        </div>
+    </div>
+</body>
+</html>
