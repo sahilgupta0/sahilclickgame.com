@@ -52,7 +52,6 @@ body{
     height: 9vh;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    /* box-shadow: -8px -18px 18px yellowgreen; */
     box-shadow: -6px 10px 5px yellowgreen;
     
 }
@@ -154,6 +153,18 @@ body{
     #t_c{
         font-size: 20px;
     }
+    #time{
+    margin-left: 20px;
+
+    }
+    #click{
+        margin-right: 30px ;
+    }
+    .game{
+        height: 300px;
+        background-size: 375px 400px;
+        
+    }
     #game_over{
         left: 20vw;
         height:35% ;
@@ -202,13 +213,3 @@ body{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
