@@ -114,7 +114,7 @@ body{
     box-shadow: 2px 2px 3px rgb(3, 3, 21);
 }
 #result{
-    padding-top: 8%;
+    padding-top: 13%;
     margin-left: 20px;
     
 }
@@ -178,7 +178,14 @@ body{
         left: 26%;
         height: 34px;
         width: 80px;
-    } 
+    }
+    #result{
+        font-size: 20px;
+    }
+    
+    #average{
+        font-size: 20px;
+    }
     #ok{
         height: 34px;
         width: 80px;
