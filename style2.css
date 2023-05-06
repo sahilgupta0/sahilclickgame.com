@@ -143,20 +143,53 @@ body{
     transition: all;
 }
 
-@media(max-width:480px){
 
-#headline{
-    height: 100px;
-    font-size: 23px;
-    margin-bottom: 25px;
+
+
+@media only screen and (max-width: 480px){
+    #headline{
+        height: 100px;
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+    #t_c{
+        font-size: 20px;
+    }
+    #game_over{
+        left: 20vw;
+        height:35% ;
+        width: 240px;
+    }
+    #top{
+        padding: 0 21px;
+        left: 29%;
+        height: 34px;
+        width: 80px;
+    } 
+    #ok{
+        height: 34px;
+        width: 80px;
+    }
 }
 
-#t_c{
-    font-size: 20px;
-}
 
+@media only screen and (min-width: 480px) and (max-width: 768px){
 
-
+    #game_over{
+        left: 27vw;
+        height:35% ;
+        width: 290px;
+    }
+    #top{
+        padding: 0 21px;
+        left: 29%;
+        height: 36px;
+        width: 90px;
+    } 
+    #ok{
+        height: 34px;
+        width: 100px;
+    }
 
 }
 
